@@ -1,0 +1,23 @@
+clear; close all; clc;
+
+% 读取示例文件 Fifer.jpg 并显示 RGB 图像 (真彩色图像)
+ImColor = imread('Fifer.jpg');
+imshow(ImColor)
+
+% 将 RGB 图像转换为灰度图像并显示
+Imgray = rgb2gray(ImColor);
+imshow(Imgray)
+
+% 图像的存储格式为uint8类型
+% 一般是不能进行加减乘除运算的
+% 需要将其转化成其他数据类型，常见的是double型
+ImgrayMatrix1 = double(Imgray);
+
+% 保存像素矩阵
+save Fifer.mat ImColor ImgrayMatrix1 
+
+% 加载已保存的数据
+load Fifer.mat
+
+% 显示真彩色图
+imshow(ImColor)
