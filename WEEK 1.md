@@ -25,3 +25,4 @@ load Fifer.mat
 
 % 显示真彩色图
 imshow(ImColor)
+```
