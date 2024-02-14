@@ -50,4 +50,4 @@
 常用的工具有很多，课程推荐的是MATLAB这个软件，是MATWORLD公司开发的建模软件，和很多高校有合作，我们学校开设的者们课程就是和MATWORLD公司合作的，所以会提供很多教程和证书权限。MATLAB的下载可以使用官方网页下载，也可以使用学校资源进行下载。
 
 下面是MATLAB入门课程 ，通过不到两个小时的课程就可以基本了解MATLAB使用方法。
-![MATLAB入门指南]https://matlabacademy.mathworks.com/cn/details/matlab-onramp/gettingstarted
+![MATLAB入门指南](https://matlabacademy.mathworks.com/cn/details/matlab-onramp/gettingstarted)
